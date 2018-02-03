@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b0c703bc-168e-4c68-866e-669041091ca6" name="localhost" url="http://localhost/smarthome">
+        <fileTransfer port="0" mountedRoot="/opt/lampp/htdocs/smarthome" accessType="MOUNT" />
+      </webServer>
+      <webServer id="f17087f5-19b1-4518-b715-5bcd0219d958" name="remote" url="http://118.89.244.53">
+        <fileTransfer host="118.89.244.53" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
